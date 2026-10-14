@@ -83,4 +83,5 @@ P24_eda_lrd.py
 
 P26_plot_lrd_examples.py
 
+Vallejos, O. A. (2026). Constraint on the Fine Structure Constant at z > 5 from Stacked JWST/NIRSpec Spectra. Zenodo. https://doi.org/10.5281/zenodo.23373471
 
