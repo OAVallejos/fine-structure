@@ -43,6 +43,8 @@ P03b_crosscorr.py
 
 P04_stack.py
 
+P13_multiline_z.py
+
 P04b_stack_multiline.py  
 
 VERIFY_P05.py 
@@ -62,8 +64,6 @@ P08_systematics.py
 P09_forecast.py
 
 P10_figures.py
-
-P13_multiline_z.py
 
 P14_validation.py
 
