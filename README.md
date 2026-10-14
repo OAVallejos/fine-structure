@@ -1,4 +1,7 @@
-UNDER CONSTRUCTION 
+# Fine-Structure Constant at z > 5 from JWST/NIRSpec Stacked Spectra
+
+Pipeline for measuring α at z > 5 using rest-frame stacked spectra of 212 JADES DR3 galaxies (JWST/NIRSpec G395M/G395H). We combine Hβ λ4862.68 Å and [OIII] λ5008.24 Å to constrain Δα/α, obtaining Δα/α = +3.02 ± 5.73 ppm (bootstrap, 100 iterations), consistent with no variation at 0.53σ, with a 2σ upper limit |Δα/α| < 1.15 × 10⁻⁵. The dominant systematic is per-object scatter (272 ppm) plus a z_Spec bias (−0.000626), corrected via multi-line redshift (Hβ, Hα, [OIII], [NII]). This is the first upper limit on Δα/α at z > 5 using emission lines. The repo contains the full pipeline (25+ modular Python scripts under `pipeline/v2/`, from quality cuts and stacking to bootstrap, subsamples, systematics and figures), the JADES DR3 and LRD candidate inputs, and the LaTeX preprint source. Built with numpy, scipy, astropy, matplotlib, pandas, scikit-learn, catboost and shap. To reproduce: prepare data, run the pipeline in order, then compile twice with pdflatex. Contact: arielvallejosok@gmail.com —
+
 
 # Create folders 
 
