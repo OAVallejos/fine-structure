@@ -10,9 +10,9 @@ mkdir analysis
 
 mkdir pipeline/v2/ # Here are the *.py files 
 
-mkdir spectra
+mkdir spectra # data
 
-mkdir spectra_lrd_candidates
+mkdir spectra_lrd_candidates # data2
 
 
 # Critical Phase 2:
